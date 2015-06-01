@@ -15,27 +15,28 @@ html {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-    margin-top: 14px;
-    margin-left: 14px;
-    margin-bottom: 14px;
-    padding: 0px 15px;
+   height: 4.375rem;
+   padding: 0px 15px
 
   }
 
-.top-navigation > .links {
+.top-navigation .logo{
+   height: 4.375rem;
+   
+}
+
+.top-navigation .links {
   float: right; 
   font-family: 'Roboto', sans-serif;
   color: #838994;
-  font-size: 16px;
-  margin-top: 25px;
-  -webkit-font-smoothing: antialiased;
+  margin-top: 1.7rem;
 }
-
 
 .top-navigation .links li  {
   display: inline-block;
@@ -43,9 +44,14 @@ html {
 }
 
 
-.top-navigation .content .active {
+.top-navigation .links li.active {
   color: #4c5058;
   font-weight: 500;  
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
 }
 
 .top-navigation .links li:hover {
