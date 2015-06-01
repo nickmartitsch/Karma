@@ -54,18 +54,22 @@ html {
 }
 
 .introduction{
-    background-image: url('first-background copy.jpg');
+    background-image: url('first-background.jpg');
     background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
 
-    
 
 }
 
-.content{
-    padding: 0px 15px
-  
+.introduction > .content{
+margin:0 auto; 
+width: 970px;
+display: block;
+
+
+
 }
 
 
