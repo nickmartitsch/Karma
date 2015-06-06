@@ -39,7 +39,6 @@ html {
   margin-left: 25px;  
 }
 
-
 .top-navigation .links li.active {
   color: #4c5058;
   font-weight: 500;  
@@ -54,8 +53,6 @@ html {
     cursor: pointer;
     color: #333333;
 }
-
-
 
 .introduction{
     background-image: url('images/first-background.jpg');
@@ -84,8 +81,6 @@ html {
   margin-top: 1.25rem;
   font-size: 1.563rem;
 }
-
-
 
 .big-button {
     text-shadow: none;
